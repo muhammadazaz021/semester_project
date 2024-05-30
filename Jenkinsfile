@@ -6,7 +6,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building App...'
-                sh  'node --version'
+               // sh  'node --version'
             }
         }
         stage('Deploying') {
